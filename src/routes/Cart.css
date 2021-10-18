@@ -1,0 +1,105 @@
+.table {
+    width: 100%
+}
+
+.table thead{
+    width: 100%
+}
+
+.table thead th{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-width: 1px
+}
+
+.table>thead>tr>th{
+    vertical-align: middle !important
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle !important
+}
+
+.remove-from-cart {
+    display: inline-block;
+    color: #ff5252;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none
+}
+
+.product-item {
+    display: table;
+    width: 100%;
+    min-width: 150px;
+    margin-top: 5px;
+    margin-bottom: 3px
+}
+
+.product-thumb {
+    display: table-cell;
+    vertical-align: top;
+    width: 130px;
+    padding-right: 20px
+}
+
+.product-info {
+    display: table-cell;
+    vertical-align: top
+}
+
+.product-info span{
+    display: block;
+    font-size: 13px
+}
+
+.product-info span>em{
+    font-weight: 500;
+    font-style: normal  
+}
+
+.product-title {
+    margin-bottom: 6px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 500 
+}
+
+.product-title small{
+    display: inline;
+    margin-left: 6px;
+    font-weight: 500
+}
+
+.shopping-cart-footer {
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #e1e7ec
+}
+
+.shopping-cart-footer>.column {
+    display: table-cell;
+    padding: 5px 0;
+    vertical-align: middle
+}
+
+.shopping-cart-footer>.column:last-child {
+    text-align: right
+}
+
+.shopping-cart-footer>.column:last-child .btn {
+    margin-right: 0;
+    margin-left: 15px
+}
+
+.coupon-form .form-control {
+    display: inline-block;
+    width: 100%;
+    max-width: 235px;
+    margin-right: 12px;
+}
+
+.form-control-sm:not(textarea) {
+    height: 36px;
+}

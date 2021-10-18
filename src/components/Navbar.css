@@ -1,0 +1,10 @@
+.logo{
+    width: 70px;
+}
+
+.logo:hover {
+    opacity: 0.6;
+}
+.b{
+    background-color: black;
+}

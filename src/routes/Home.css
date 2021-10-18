@@ -1,0 +1,63 @@
+.carousel-item {
+    width: 100%;
+    height: 88vh;
+    background-color: rgb(246, 246, 246);
+}
+
+.carousel-item > img {
+    position: absolute;
+    left: 52%;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 90%;
+    top: 50%;
+    left: 15%;
+    z-index: 2;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: left;
+}
+ 
+.nike{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: right;
+}
+
+.f{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f2{
+    width: 152px;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t2{
+    width: 40px;
+    background-color: 30bfec;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-left: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(215, 215, 215);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(50%);
+}
